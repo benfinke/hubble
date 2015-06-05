@@ -43,7 +43,11 @@ THIRD_PARTY_APPS = (
 )
 
 LOCAL_APPS = (
-
+    'nmap_targets',
+    'nmap_scan_policies',
+    'nmap_scan_import',
+    'nmap_run_scans',
+    'nmap_view_scans',
 )
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
